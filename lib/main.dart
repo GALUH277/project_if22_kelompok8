@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:project_if22a/config/asset.dart';
 import 'package:project_if22a/screen/admin/dashbord_admin.dart';
-import 'package:project_if22a/screen/admin/list_mahasiswa.dart';
 import 'package:project_if22a/screen/login.dart';
 
 void main() {
@@ -20,7 +19,7 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: Colors.white,
       ),
       debugShowCheckedModeBanner: false,
-      home: Login(),
+      home: DashboardAdmin(username: '',), 
     );
   }
 }
